@@ -1,0 +1,29 @@
+# MQTT Settings
+mqtt:
+  broker: 192.168.1.102
+  port: 1884
+  username: xxxx
+  password: xxxx
+  qos: 2
+  retain: true
+  topic_prefix: rgbw2mqtt
+  availability_topic: rgbw/available
+  discovery: true
+  discovery_prefix: homeassistant
+
+# RGBW
+lights:
+  - name: Kitchen Strip Light
+    channel_topics:
+      red: 'dynalite/a1c1'
+      green: 'dynalite/a1c2'
+      blue: 'dynalite/a1c3'
+      white: 'dynalite/a1c4'
+      power: 'dynalite/a1c5'
+  - name: Bedroom Strip Light
+    channel_topics:
+      red: 'dynalite/a2c1'
+      green: 'dynalite/a2c2'
+      blue: 'dynalite/a2c3'
+      white: 'dynalite/a2c4'
+      power: 'dynalite/a2c5'
