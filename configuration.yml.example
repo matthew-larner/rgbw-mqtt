@@ -15,15 +15,15 @@ mqtt:
 lights:
   - name: Kitchen Strip Light
     output_channel_topics:
-      red: 'dynalite/a1c1'
-      green: 'dynalite/a1c2'
-      blue: 'dynalite/a1c3'
-      white: 'dynalite/a1c4'
-      power: 'dynalite/a1c5'
+      red: 'dynalite/a1c1/set'
+      green: 'dynalite/a1c2/set'
+      blue: 'dynalite/a1c3/set'
+      white: 'dynalite/a1c4/set'
+      power: 'dynalite/a1c5/set'
   - name: Bedroom Strip Light
     output_channel_topics:
-      red: 'dynalite/a2c1'
-      green: 'dynalite/a2c2'
-      blue: 'dynalite/a2c3'
-      white: 'dynalite/a2c4'
-      power: 'dynalite/a2c5'
+      red: 'dynalite/a2c1/set'
+      green: 'dynalite/a2c2/set'
+      blue: 'dynalite/a2c3/set'
+      white: 'dynalite/a2c4/set'
+      power: 'dynalite/a2c5/set'
